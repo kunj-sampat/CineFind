@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CineFind</h1>
+        <p>Search for movies and save your favourites.</p>
+    </header>
+
+    <main>
+
+        <div class="search-box">
+            <input type="text" id="movieInput" placeholder="Enter movie name">
+
+            <button onclick="searchMovie()">
+                Search
+            </button>
+        </div>
+
+        <p id="message"></p>
+
+        <div id="movieContainer"></div>
+
+        <section class="watchlist-section">
+
+            <h2>My Watchlist</h2>
+
+            <div id="watchlist"></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
